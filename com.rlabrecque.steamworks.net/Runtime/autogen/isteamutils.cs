@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamUtils {
+	public static partial class SteamUtils {
 		/// <summary>
 		/// <para> return the number of seconds since the user</para>
 		/// </summary>

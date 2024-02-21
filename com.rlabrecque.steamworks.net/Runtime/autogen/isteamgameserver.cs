@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamGameServer {
+	public static partial class SteamGameServer {
 		/// <summary>
 		/// <para>/ Game product identifier.  This is currently used by the master server for version checking purposes.</para>
 		/// <para>/ It's a required field, but will eventually will go away, and the AppID will be used for this purpose.</para>

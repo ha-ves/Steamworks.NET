@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamRemoteStorage {
+	public static partial class SteamRemoteStorage {
 		/// <summary>
 		/// <para> NOTE</para>
 		/// <para> Filenames are case-insensitive, and will be converted to lowercase automatically.</para>

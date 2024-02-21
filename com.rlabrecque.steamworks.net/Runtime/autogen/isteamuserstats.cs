@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamUserStats {
+	public static partial class SteamUserStats {
 		/// <summary>
 		/// <para> Ask the server to send down this user's data and achievements for this game</para>
 		/// </summary>

@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamClient {
+	public static partial class SteamClient {
 		/// <summary>
 		/// <para> Creates a communication pipe to the Steam client.</para>
 		/// <para> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</para>

@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamInput {
+	public static partial class SteamInput {
 		/// <summary>
 		/// <para> Init and Shutdown must be called when starting/ending use of this interface.</para>
 		/// <para> if bExplicitlyCallRunFrame is called then you will need to manually call RunFrame</para>

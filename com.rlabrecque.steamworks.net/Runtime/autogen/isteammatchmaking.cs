@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamMatchmaking {
+	public static partial class SteamMatchmaking {
 		/// <summary>
 		/// <para> game server favorites storage</para>
 		/// <para> saves basic details about a multiplayer game server locally</para>
@@ -436,7 +436,7 @@ namespace Steamworks {
 		}
 #endif
 	}
-	public static class SteamMatchmakingServers {
+	public static partial class SteamMatchmakingServers {
 		/// <summary>
 		/// <para> Request a new list of servers of a particular type.  These calls each correspond to one of the EMatchMakingType values.</para>
 		/// <para> Each call allocates a new asynchronous request object.</para>
@@ -636,7 +636,7 @@ namespace Steamworks {
 			NativeMethods.ISteamMatchmakingServers_CancelServerQuery(CSteamAPIContext.GetSteamMatchmakingServers(), hServerQuery);
 		}
 	}
-	public static class SteamGameSearch {
+	public static partial class SteamGameSearch {
 		/// <summary>
 		/// <para> =============================================================================================</para>
 		/// <para> Game Player APIs</para>
@@ -775,7 +775,7 @@ namespace Steamworks {
 			return NativeMethods.ISteamGameSearch_EndGame(CSteamAPIContext.GetSteamGameSearch(), ullUniqueGameID);
 		}
 	}
-	public static class SteamParties {
+	public static partial class SteamParties {
 		/// <summary>
 		/// <para> =============================================================================================</para>
 		/// <para> Party Client APIs</para>

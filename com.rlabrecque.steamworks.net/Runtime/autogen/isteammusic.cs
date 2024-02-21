@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamMusic {
+	public static partial class SteamMusic {
 		public static bool BIsEnabled() {
 			InteropHelp.TestIfAvailableClient();
 			return NativeMethods.ISteamMusic_BIsEnabled(CSteamAPIContext.GetSteamMusic());

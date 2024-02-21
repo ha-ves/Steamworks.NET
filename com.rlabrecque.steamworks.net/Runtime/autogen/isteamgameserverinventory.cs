@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamGameServerInventory {
+	public static partial class SteamGameServerInventory {
 		/// <summary>
 		/// <para> INVENTORY ASYNC RESULT MANAGEMENT</para>
 		/// <para> Asynchronous inventory queries always output a result handle which can be used with</para>

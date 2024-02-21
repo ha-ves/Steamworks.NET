@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamVideo {
+	public static partial class SteamVideo {
 		/// <summary>
 		/// <para> Get a URL suitable for streaming the given Video app ID's video</para>
 		/// </summary>

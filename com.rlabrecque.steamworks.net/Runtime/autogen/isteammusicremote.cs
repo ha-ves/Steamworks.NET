@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamMusicRemote {
+	public static partial class SteamMusicRemote {
 		/// <summary>
 		/// <para> Service Definition</para>
 		/// </summary>

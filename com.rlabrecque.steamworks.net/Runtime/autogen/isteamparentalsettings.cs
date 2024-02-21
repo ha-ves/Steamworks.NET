@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamParentalSettings {
+	public static partial class SteamParentalSettings {
 		public static bool BIsParentalLockEnabled() {
 			InteropHelp.TestIfAvailableClient();
 			return NativeMethods.ISteamParentalSettings_BIsParentalLockEnabled(CSteamAPIContext.GetSteamParentalSettings());

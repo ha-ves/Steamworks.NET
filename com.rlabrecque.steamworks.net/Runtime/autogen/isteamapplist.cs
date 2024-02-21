@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamAppList {
+	public static partial class SteamAppList {
 		public static uint GetNumInstalledApps() {
 			InteropHelp.TestIfAvailableClient();
 			return NativeMethods.ISteamAppList_GetNumInstalledApps(CSteamAPIContext.GetSteamAppList());

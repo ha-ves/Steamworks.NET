@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamUser {
+	public static partial class SteamUser {
 		/// <summary>
 		/// <para> returns the HSteamUser this interface represents</para>
 		/// <para> this is only used internally by the API, and by a few select interfaces that support multi-user</para>

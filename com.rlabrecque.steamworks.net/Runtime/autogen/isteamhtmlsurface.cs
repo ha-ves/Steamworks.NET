@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamHTMLSurface {
+	public static partial class SteamHTMLSurface {
 		/// <summary>
 		/// <para> Must call init and shutdown when starting/ending use of the interface</para>
 		/// </summary>

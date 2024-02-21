@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamApps {
+	public static partial class SteamApps {
 		public static bool BIsSubscribed() {
 			InteropHelp.TestIfAvailableClient();
 			return NativeMethods.ISteamApps_BIsSubscribed(CSteamAPIContext.GetSteamApps());

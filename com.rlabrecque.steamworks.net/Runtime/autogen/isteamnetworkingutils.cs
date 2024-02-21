@@ -16,7 +16,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamNetworkingUtils {
+	public static partial class SteamNetworkingUtils {
 		/// <summary>
 		/// <para> Efficient message sending</para>
 		/// <para>/ Allocate and initialize a message object.  Usually the reason</para>

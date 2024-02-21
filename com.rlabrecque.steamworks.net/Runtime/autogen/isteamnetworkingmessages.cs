@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamNetworkingMessages {
+	public static partial class SteamNetworkingMessages {
 		/// <summary>
 		/// <para>/ Sends a message to the specified host.  If we don't already have a session with that user,</para>
 		/// <para>/ a session is implicitly created.  There might be some handshaking that needs to happen</para>

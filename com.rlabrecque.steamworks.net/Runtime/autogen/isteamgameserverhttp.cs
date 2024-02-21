@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamGameServerHTTP {
+	public static partial class SteamGameServerHTTP {
 		/// <summary>
 		/// <para> Initializes a new HTTP request, returning a handle to use in further operations on it.  Requires</para>
 		/// <para> the method (GET or POST) and the absolute URL for the request.  Both http and https are supported,</para>

@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamGameServerStats {
+	public static partial class SteamGameServerStats {
 		/// <summary>
 		/// <para> downloads stats for the user</para>
 		/// <para> returns a GSStatsReceived_t callback when completed</para>

@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamNetworking {
+	public static partial class SteamNetworking {
 		/// <summary>
 		/// <para>//////////////////////////////////////////////////////////////////////////////////////////</para>
 		/// <para> UDP-style (connectionless) networking interface.  These functions send messages using</para>

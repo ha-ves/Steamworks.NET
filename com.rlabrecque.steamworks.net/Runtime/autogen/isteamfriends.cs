@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamFriends {
+	public static partial class SteamFriends {
 		/// <summary>
 		/// <para> returns the local players name - guaranteed to not be NULL.</para>
 		/// <para> this is the same name as on the users community profile page</para>

@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 using IntPtr = System.IntPtr;
 
 namespace Steamworks {
-	public static class SteamScreenshots {
+	public static partial class SteamScreenshots {
 		/// <summary>
 		/// <para> Writes a screenshot to the user's screenshot library given the raw image data, which must be in RGB format.</para>
 		/// <para> The return value is a handle that is valid for the duration of the game process and can be used to apply tags.</para>
