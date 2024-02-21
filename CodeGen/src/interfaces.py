@@ -563,7 +563,7 @@ def parse_interface(f, interface):
         return
 
     print(" - " + interface.name)
-    g_Output.append('\tpublic static class ' + interface.name[1:] + ' {')
+    g_Output.append('\tpublic static partial class ' + interface.name[1:] + ' {')
 
     if "GameServer" in interface.name and interface.name != "ISteamGameServer" and interface.name != "ISteamGameServerStats":
         bGameServerVersion = True

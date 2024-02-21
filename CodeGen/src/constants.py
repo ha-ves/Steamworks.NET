@@ -154,7 +154,7 @@ def main(parser):
         with open("templates/header.txt", "r") as f:
             out.write(bytes(f.read(), "utf-8"))
         out.write(bytes("namespace Steamworks {\n", "utf-8"))
-        out.write(bytes("\tpublic static class Constants {\n", "utf-8"))
+        out.write(bytes("\tpublic static partial class Constants {\n", "utf-8"))
         for line in lines:
             out.write(bytes("\t\t" + line + "\n", "utf-8"))
         out.write(bytes("\t}\n", "utf-8"))
